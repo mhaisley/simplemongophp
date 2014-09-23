@@ -154,6 +154,10 @@ echo "... but a " . $jack->skills['leadership'] . " at leadership.\n";
    on a slave and writes on a master (will add replica set SLAVE_OK
    support when that gets added to Mongo)
 
+### 1.2.1 - 9/23/2014 ###
+ * Included ahmedmhmd's changes relating MongoClient
+ * Fixed one area still referencing Mongo instead of MongoClient
+ * Removed reference to connected property, as this is depreciated.
 
 ## License Information ##
 
